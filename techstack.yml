@@ -1,0 +1,68 @@
+repo_name: stackshareiodev/ad_palworld-server-docker
+report_id: 2fa4b34df51a274dbdb7aefdee4c507f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-06T11:28:37+00:00'
+requested_by: thijsvanloef
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/stackshareiodev/ad_palworld-server-docker
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/stackshareiodev/ad_palworld-server-docker
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/stackshareiodev/ad_palworld-server-docker
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/stackshareiodev/ad_palworld-server-docker/blob/main/.github/workflows/docker-hub.yml
+  detection_source: ".github/workflows/docker-hub.yml"
+  last_updated_by: Twinki
+  last_updated_on: 2024-01-27 17:27:11.000000000 Z
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/stackshareiodev/ad_palworld-server-docker/blob/main/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: Thijs van Loef
+  last_updated_on: 2024-01-19 13:58:51.000000000 Z
